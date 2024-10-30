@@ -1,0 +1,90 @@
+.banner {
+	background-color: #fff;
+	color: #333;
+	padding: .6rem;
+	display: flex;
+	align-items: center;
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+/* override WP CSS styling */
+.isf-notice {
+    border-radius: 5px;
+    margin-left: 0 !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.banner img {
+	margin-right: 10px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.message .banner {
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+
+.banner-text {
+	flex-grow: 1;
+}
+
+.banner-text p {
+	margin: 0;
+}
+.banner-text h3 {
+	margin: .5rem 0;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.plugin-options-title {
+    display: flex;
+    align-items: center;
+}
+
+.plugin-title .spinner {
+    margin: 0 .75rem;
+}
+
+.isf-settings-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.isf-left-column, .isf-right-column {
+    width: 48%;
+}
+
+.isf-left-column {
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.isf-right-column {
+    padding-left: 20px;
+}
+
+.input-width {
+    width: 100%;
+}
+
+.isf-ul {
+    list-style-type: disc;
+}
+
+.isf-ul li{
+    margin-left: 2rem;
+}
+
